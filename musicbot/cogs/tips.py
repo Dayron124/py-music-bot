@@ -9,8 +9,7 @@ class Tips(commands.Cog):
     def __init__(self, bot, config):
         self.bot = bot
         self.config = config[__name__.split(".")[-1]]
-        self.tips = ["Only admins and the song requester can immediately skip songs. Everybody else will have to vote!",
-                     f"You can check out my source code here: {self.config['github_url']}"]
+        self.tips = ["Tip of this dick in your ass"]
 
     @commands.command()
     async def tip(self, ctx):
